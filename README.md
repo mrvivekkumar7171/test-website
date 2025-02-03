@@ -40,3 +40,27 @@ This project uses GitHub Actions to automatically scan for security vulnerabilit
 This project is licensed under the MIT License.
 
 🙋‍♂️ Developed by Vivek
+
+---
+
+### **Adding a Favicon (Logo) to Your Website Tab**
+
+1. **Prepare Your Favicon:**  
+   - Create an image (preferably 32x32 pixels) in `.ico`, `.png`, or `.svg` format.  
+   - Name it `favicon.ico` (or `favicon.png`).  
+
+2. **Upload the Favicon:**  
+   - Place the favicon file in the root directory of your project (same level as `index.html`).  
+
+3. **Add Code to `index.html`:**  
+   Inside the `<head>` section, add the following line:  
+      ```html
+      <link rel="icon" href="favicon.ico" type="image/x-icon">
+**Or, if it's a PNG:**
+   <link rel="icon" href="favicon.png" type="image/png">
+4. **Commit Changes:**
+```bash
+   git add .
+   git commit -m "Added favicon to website"
+   git push
+Refresh your website, and you'll see the favicon appear on the browser tab!
