@@ -59,8 +59,9 @@ This project is licensed under the MIT License.
 **Or, if it's a PNG:**
    <link rel="icon" href="favicon.png" type="image/png">
 4. **Commit Changes:**
-```bash
+   ```bash
    git add .
    git commit -m "Added favicon to website"
    git push
+
 Refresh your website, and you'll see the favicon appear on the browser tab!
