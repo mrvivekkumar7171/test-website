@@ -317,7 +317,13 @@ img{
 /* Active menu link */
 .active-link{
   color: var(--title-color);
+}
 
+/*========== Nevigation Logo ==========*/
+.nev__logo {
+  color: #6c757d;  /* Gray color (Bootstrap-like) */
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /*========== HOME ==========*/
